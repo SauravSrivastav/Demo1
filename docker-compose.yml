@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  t1-student-maven-proj:
+    image: t1-student-maven-proj
+    build: .
+    ports:
+      - 8081:8081
